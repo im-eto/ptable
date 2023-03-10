@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="index.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ptable</title>
+</head>
+<body>
+    <div class="table">
+
+        <div class="disp">
+            <span id="Symbol">Symbol</span>
+            <span id="name">Name</span>
+            <div class="list">
+                <span class="un-line">Atomic Number:</span>
+                <span class="no-line" id="atomicNumber"></span>
+            </div>
+            <div class="list">
+                <span class="un-line">Atomic Mass:</span>
+                <span class="no-line" id="atomicMass">##</span>
+            </div>
+            <div class="list">
+                <span class="un-line">Boiling Point:</span>
+                <span class="no-line" id="boilingPoint">##</span>
+            </div>
+            <div class="list">
+                <span class="un-line">Melting Point:</span>
+                <span class="no-line" id="meltingPoint">##</span>
+            </div>
+            <div class="list">
+                <span class="un-line">Electron Config:</span>
+                <span class="no-line" id="electronicConfiguration">##</span>
+            </div>
+            </dl>
+            <div id="ext">
+                <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16 8L8 16M8.00001 8L16 16" stroke="#7a7a7a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="ele" id="H">H</div>
+            <div class="ele" id="He">He</div>
+        </div>
+
+         <!-- row 2 -->
+        <div class="row">
+            <div id="row-2">
+                <div class="ele" id="Li">Li</div>
+                <div class="ele" id="Be">Be</div>
+            </div>
+            <div id="row-2">
+                <div class="ele" id="B">B</div>
+                <div class="ele" id="C">C</div>
+                <div class="ele" id="N">N</div>
+                <div class="ele" id="O">O</div>
+                <div class="ele" id="F">F</div>
+                <div class="ele" id="Ne">Ne</div>
+            </div>
+        </div>
+
+        <!-- row 3 -->
+        <div class="row">
+            <div id="row-2">
+                <div class="ele" id="Na">Na</div>
+                <div class="ele" id="Mg">Mg</div>
+            </div>
+            <div id="row-2">
+                <div class="ele" id="Al">Al</div>
+                <div class="ele" id="Si">Si</div>
+                <div class="ele" id="P">P</div>
+                <div class="ele" id="S">S</div>
+                <div class="ele" id="Cl">Cl</div>
+                <div class="ele" id="Ar">Ar</div>
+            </div>
+        </div>
+
+        <!-- row 4 -->
+        <div class="row" id="rowRest">
+            <div class="ele" id="K">K</div>
+            <div class="ele" id="Ca">Ca</div>
+            <div class="ele" id="Sc">Sc</div>
+            <div class="ele" id="Ti">Ti</div>
+            <div class="ele" id="V">V</div>
+            <div class="ele" id="Cr">Cr</div>
+            <div class="ele" id="Mn">Mn</div>
+            <div class="ele" id="Fe">Fe</div>
+            <div class="ele" id="Co">Co</div>
+            <div class="ele" id="Ni">Ni</div>
+            <div class="ele" id="Cu">Cu</div>
+            <div class="ele" id="Zn">Zn</div>
+            <div class="ele" id="Ga">Ga</div>
+            <div class="ele" id="Ge">Ge</div>
+            <div class="ele" id="As">As</div>
+            <div class="ele" id="Se">Se</div>
+            <div class="ele" id="Br">Br</div>
+            <div class="ele" id="Kr">Kr</div>
+        </div>
+
+        <div class="row" id="rowRest">
+            <div class="ele" id="Rb">Rb</div>
+            <div class="ele" id="Sr">Sr</div>
+            <div class="ele" id="Y">Y</div>
+            <div class="ele" id="Zr">Zr</div>
+            <div class="ele" id="Nb">Nb</div>
+            <div class="ele" id="Mo">Mo</div>
+            <div class="ele" id="Tc">Tc</div>
+            <div class="ele" id="Ru">Ru</div>
+            <div class="ele" id="Rh">Rh</div>
+            <div class="ele" id="Pd">Pd</div>
+            <div class="ele" id="Ag">Ag</div>
+            <div class="ele" id="Cd">Cd</div>
+            <div class="ele" id="In">In</div>
+            <div class="ele" id="Sn">Sn</div>
+            <div class="ele" id="Sb">Sb</div>
+            <div class="ele" id="Te">Te</div>
+            <div class="ele" id="I">I</div>
+            <div class="ele" id="Xe">Xe</div>
+        </div>
+
+        <div class="row" id="rowRest">
+            <div class="ele" id="Cs">Cs</div>
+            <div class="ele" id="Ba">Ba</div>
+            <div class="ele" id="none"></div>
+            <div class="ele" id="Hf">Hf</div>
+            <div class="ele" id="Ta">Ta</div>
+            <div class="ele" id="W">W</div>
+            <div class="ele" id="Re">Re</div>
+            <div class="ele" id="Os">Os</div>
+            <div class="ele" id="Ir">Ir</div>
+            <div class="ele" id="Pt">Pt</div>
+            <div class="ele" id="Au">Au</div>
+            <div class="ele" id="Hg">Hg</div>
+            <div class="ele" id="Tl">Tl</div>
+            <div class="ele" id="Pb">Pb</div>
+            <div class="ele" id="Bi">Bi</div>
+            <div class="ele" id="Po">Po</div>
+            <div class="ele" id="At">At</div>
+            <div class="ele" id="Rn">Rn</div>
+        </div>
+
+        <div class="row" id="rowRest">
+            <div class="ele" id="Fr">Fr</div>
+            <div class="ele" id="Ra">Ra</div>
+            <div class="ele" id="none"></div>
+            <div class="ele" id="Rf">Rf</div>
+            <div class="ele" id="Db">Db</div>
+            <div class="ele" id="Sg">Sg</div>
+            <div class="ele" id="Bh">Bh</div>
+            <div class="ele" id="Hs">Hs</div>
+            <div class="ele" id="Mt">Mt</div>
+            <div class="ele" id="Ds">Ds</div>
+            <div class="ele" id="Rg">Rg</div>
+            <div class="ele" id="Cn">Cn</div>
+            <div class="ele" id="Nh">Nh</div>
+            <div class="ele" id="Fl">Fl</div>
+            <div class="ele" id="Mc">Mc</div>
+            <div class="ele" id="Lv">Lv</div>
+            <div class="ele" id="Ts">Ts</div>
+            <div class="ele" id="Og">Og</div>
+        </div>
+        <!-- divider -->
+        <div id="divide"></div>
+        
+        <div class="row" id="last">
+            <div class="ele" id="La">La</div>
+            <div class="ele" id="Ce">Ce</div>
+            <div class="ele" id="Pr">Pr</div>
+            <div class="ele" id="Nd">Nd</div>
+            <div class="ele" id="Pm">Pm</div>
+            <div class="ele" id="Sm">Sm</div>
+            <div class="ele" id="Eu">Eu</div>
+            <div class="ele" id="Gd">Gd</div>
+            <div class="ele" id="Tb">Tb</div>
+            <div class="ele" id="Dy">Dy</div>
+            <div class="ele" id="Ho">Ho</div>
+            <div class="ele" id="Er">Er</div>
+            <div class="ele" id="Tm">Tm</div>
+            <div class="ele" id="Yb">Yb</div>
+            <div class="ele" id="Lu">Lu</div>
+        </div>
+
+        <div class="row" id="last">
+            <div class="ele" id="Ac">Ac</div>
+            <div class="ele" id="Th">Th</div>
+            <div class="ele" id="Pa">Pa</div>
+            <div class="ele" id="U">U</div>
+            <div class="ele" id="Np">Np</div>
+            <div class="ele" id="Pu">Pu</div>
+            <div class="ele" id="Am">Am</div>
+            <div class="ele" id="Cm">Cm</div>
+            <div class="ele" id="Bk">Bk</div>
+            <div class="ele" id="Cf">Cf</div>
+            <div class="ele" id="Es">Es</div>
+            <div class="ele" id="Fm">Fm</div>
+            <div class="ele" id="Md">Md</div>
+            <div class="ele" id="No">No</div>
+            <div class="ele" id="Lr">Lr</div>
+        </div>
+    </div>
+    <div class="slider">
+        <input type="range" min="0" max="6000" value="273" class="sliderBar" id="tempSlider">
+        <div class="tempText" id="Kelvin">Kelvin: 297</div>
+        <div class="temptext" id="Celcius">Celcius: 24</div>
+     </div>
+     <div class="keyContain">
+         <div class="key">
+             <div class="keyColor" id="keySolid"></div>
+             <div class="keyText">Solid</div>
+             <div class="keyColor" id="keyLiquid"></div>
+             <div class="keyText">Liquid</div>
+             <div class="keyColor" id="keyGas"></div>
+             <div class="keyText">Gas</div>
+            </div>
+    </div>
+</body>
+</html>
